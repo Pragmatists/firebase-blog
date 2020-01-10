@@ -11,6 +11,10 @@
     ],
     "rewrites": [
       {
+        "source": "/server-time",
+        "function": "serverTime"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
